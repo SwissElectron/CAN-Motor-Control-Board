@@ -1,0 +1,130 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8f7cca2f-0bd1-45cd-9991-4ff133d0b08c")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 24.13 49.53)
+		(size 119.38 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2bb92522-0543-4bab-a2ad-6eddf2f4c618")
+		(property "Sheetname" "Motors"
+			(at 24.384 63.246 0)
+			(effects
+				(font
+					(size 7.62 7.62)
+					(thickness 1.524)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motors.kicad_sch"
+			(at 23.876 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_control_Board"
+				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 73.66)
+		(size 119.38 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9265767-04bc-48ff-b1a2-646c04a95e03")
+		(property "Sheetname" "MCU"
+			(at 24.384 87.884 0)
+			(effects
+				(font
+					(size 7.62 7.62)
+					(thickness 1.524)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 24.13 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_control_Board"
+				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 25.4)
+		(size 119.38 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5aedba9-9a1d-4800-8e24-bc85709c1146")
+		(property "Sheetname" "Power"
+			(at 26.416 39.116 0)
+			(effects
+				(font
+					(size 7.62 7.62)
+					(thickness 1.524)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 23.622 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_control_Board"
+				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
