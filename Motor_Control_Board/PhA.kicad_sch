@@ -2412,7 +2412,7 @@
 		)
 		(uuid "ff921b1c-b372-42a9-bc51-bbd6857f17d7")
 	)
-	(text "@15 A -> P = R_{sh}*I^{2} = 0.45 W\nV_{sh} = R_{sh} * I = 30 mV -> x100 -> 3V\n"
+	(text "@15 A -> P = R_{sh}*I^{2} = 0.45 W\nV_{sh_{MAX}} = R_{sh} * I_{MAX} = 30 mV -> x100 -> 3V\n"
 		(exclude_from_sim no)
 		(at 66.802 51.562 0)
 		(effects
@@ -2989,6 +2989,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "CSD18540Q5B"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "5cb554da-c094-4c18-9458-939ee48e0357")
 		)
@@ -3057,6 +3066,15 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "INA180B3QDBVRQ1"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -3227,6 +3245,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "INA180B3QDBVRQ1"
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3903a41-cfe6-4703-978f-e55d47078c98")
 		)
@@ -3385,6 +3412,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "CSD18540Q5B"
 			(at 73.66 25.4 0)
 			(effects
 				(font
@@ -3867,6 +3903,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "885012005018"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68563811-74f4-45e7-b559-e779f3d4a590")
 		)
@@ -4281,6 +4326,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "CSD18540Q5B"
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -4775,6 +4829,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "885012005018"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fab276c-6b46-4f53-85f9-2c8d55ff19fb")
 		)
@@ -4858,6 +4921,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "CSD18540Q5B"
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -5280,6 +5352,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "885012005018"
 			(at 120.65 166.37 0)
 			(effects
 				(font
@@ -6415,6 +6496,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "885012005018"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1f87e98-a4f1-430c-9942-e994d1066c7a")
 		)
@@ -6498,6 +6588,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 73.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "CSD18540Q5B"
 			(at 73.66 38.1 0)
 			(effects
 				(font
@@ -6858,6 +6957,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "885012005018"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c050d52-ca9a-40e2-b44a-c517109e5121")
 		)
@@ -7192,6 +7300,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "885012005018"
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1981ae3-0ecb-4798-8688-b9b0c8a177ec")
 		)
@@ -7341,6 +7458,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 73.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "CSD18540Q5B"
 			(at 73.66 149.86 0)
 			(effects
 				(font
@@ -7511,6 +7637,15 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "INA180B3QDBVRQ1"
 			(at 101.6 105.41 0)
 			(effects
 				(font

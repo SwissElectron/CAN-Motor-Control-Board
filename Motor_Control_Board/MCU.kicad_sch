@@ -924,6 +924,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3050,9 +3195,15 @@
 		(at 127 64.77)
 		(uuid "eceaaeaa-5d28-4562-bbe6-08a0ef8bd4f3")
 	)
-	(no_connect
-		(at 127 85.09)
-		(uuid "f9d1cfb6-51cc-4fc0-ac58-8047f65bb3d8")
+	(wire
+		(pts
+			(xy 87.63 175.26) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02199f51-6d7b-45b6-85ef-6b080133ff43")
 	)
 	(wire
 		(pts
@@ -3093,16 +3244,6 @@
 			(type default)
 		)
 		(uuid "07a3c8d8-294e-41f7-9c72-a34b011c7c75")
-	)
-	(wire
-		(pts
-			(xy 96.52 175.26) (xy 97.79 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6374a8-f6fd-4738-971e-9c9d8721a4a3")
 	)
 	(wire
 		(pts
@@ -3366,16 +3507,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 173.99) (xy 96.52 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ed3887-cf8d-40cc-b3dd-45d4a9cc99dc")
-	)
-	(wire
-		(pts
 			(xy 142.24 36.83) (xy 142.24 38.1)
 		)
 		(stroke
@@ -3626,6 +3757,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 175.26) (xy 77.47 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe968dc-6cb6-4c2a-9946-50a0c97bd1b1")
+	)
+	(wire
+		(pts
 			(xy 85.09 153.67) (xy 88.9 153.67)
 		)
 		(stroke
@@ -3753,6 +3894,16 @@
 			(type default)
 		)
 		(uuid "b029a194-c3e0-4154-aabc-ca6da8405ef0")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bd0d1c-28c6-4da2-bb82-5a4ac24f89cb")
 	)
 	(wire
 		(pts
@@ -3993,6 +4144,16 @@
 			(type default)
 		)
 		(uuid "e5d24509-d8fe-4792-9118-0a2b59114dde")
+	)
+	(wire
+		(pts
+			(xy 71.12 173.99) (xy 71.12 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e880b703-7096-4efa-b669-e10dcf785439")
 	)
 	(wire
 		(pts
@@ -4437,6 +4598,28 @@
 		(uuid "945f6a39-49dd-400b-825a-a6f61c16bb79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.9391 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRV_FAULT"
+		(shape input)
+		(at 125.73 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94c201a5-09d7-44b7-ad64-8b1616ad33a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.6452 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,6 +5678,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "STM32F103C8T6"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "33"
 			(uuid "94f815f9-ed0c-410f-95ad-12315d618991")
 		)
@@ -5667,7 +5859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Encoder"
+		(property "Value" "CAN"
 			(at 105.41 180.3399 0)
 			(effects
 				(font
@@ -5930,6 +6122,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "NANOT100AS"
 			(at 41.91 91.44 0)
 			(effects
 				(font
@@ -6628,6 +6829,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "MCP2562FD-E/SN"
+			(at 44.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "1fcab65a-358e-48aa-9cbd-c6ae25f1172d")
 		)
@@ -6927,7 +7137,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "88461d86-a4d2-46ce-a009-09292919fbe8")
 		(property "Reference" "C30"
 			(at 126.238 145.542 90)
@@ -6982,72 +7192,6 @@
 			(project ""
 				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/a9265767-04bc-48ff-b1a2-646c04a95e03"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 96.52 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bf37c0e-37a8-4ba7-b175-01cb480d3eb7")
-		(property "Reference" "#PWR083"
-			(at 96.52 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 96.52 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 96.52 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83fb0f40-3be6-4063-9c67-1c56956575d8")
-		)
-		(instances
-			(project "Motor_control_Board"
-				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/a9265767-04bc-48ff-b1a2-646c04a95e03"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -7373,6 +7517,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "ECS-1612MV-080-CN-TR"
 			(at 83.82 57.15 0)
 			(effects
 				(font
@@ -8177,6 +8330,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 71.12 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19081d8-ae5c-4f31-83dc-cd0d9e6f62d3")
+		(property "Reference" "#PWR047"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 71.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "371c6041-08b7-4f65-91f0-4d62661fb84f")
+		)
+		(instances
+			(project "Motor_control_Board"
+				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/a9265767-04bc-48ff-b1a2-646c04a95e03"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 101.6 153.67 270)
 		(unit 1)
@@ -8270,7 +8489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.132 81.28 90)
 			(effects
 				(font
@@ -8315,6 +8534,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "0402WGF1002TCE"
+			(at 41.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f264b03e-81e9-462e-b02c-9f9e440fb61c")
 		)
@@ -8325,6 +8553,74 @@
 			(project "6-axis_Board"
 				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/a9265767-04bc-48ff-b1a2-646c04a95e03"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 82.55 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e83a847a-7b8d-49a8-92ae-9ba5f8df323a")
+		(property "Reference" "JP1"
+			(at 82.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 82.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 82.55 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 82.55 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "819f51f9-0db1-41e3-9213-5a5218fe5b3f")
+		)
+		(pin "2"
+			(uuid "130c580f-a9d0-42a2-90bb-7f55bf7b6720")
+		)
+		(instances
+			(project ""
+				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/a9265767-04bc-48ff-b1a2-646c04a95e03"
+					(reference "JP1")
 					(unit 1)
 				)
 			)

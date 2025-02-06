@@ -16,7 +16,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2bb92522-0543-4bab-a2ad-6eddf2f4c618")
-		(property "Sheetname" "Motors"
+		(property "Sheetname" "Motor Driver"
 			(at 24.384 63.246 0)
 			(effects
 				(font

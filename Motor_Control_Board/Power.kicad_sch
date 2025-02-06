@@ -1058,108 +1058,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -3854,16 +3752,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 110.49) (xy 204.47 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "139d8cda-bbd1-472a-9d52-7f61ba8fcc43")
-	)
-	(wire
-		(pts
 			(xy 143.51 95.25) (xy 143.51 96.52)
 		)
 		(stroke
@@ -4224,16 +4112,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 109.22) (xy 200.66 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e24f124-5383-4886-936a-73f9ceee1827")
-	)
-	(wire
-		(pts
 			(xy 101.6 96.52) (xy 111.76 96.52)
 		)
 		(stroke
@@ -4301,16 +4179,6 @@
 			(type default)
 		)
 		(uuid "7da3854e-0d19-4fad-bf97-4529142d19d8")
-	)
-	(wire
-		(pts
-			(xy 215.9 109.22) (xy 215.9 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "822c6d44-8b2a-4780-a1ae-1fef0d7bcc7e")
 	)
 	(wire
 		(pts
@@ -4724,16 +4592,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 110.49) (xy 218.44 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea99d6f0-1f84-483b-afd2-309978083ccf")
-	)
-	(wire
-		(pts
 			(xy 93.98 33.02) (xy 93.98 38.1)
 		)
 		(stroke
@@ -5053,7 +4911,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 200.66 97.79 0)
+		(at 130.81 143.51 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5062,7 +4920,7 @@
 		(fields_autoplaced yes)
 		(uuid "07bf1120-5611-4cd5-a316-4440affde29c")
 		(property "Reference" "H3"
-			(at 203.2 96.5199 0)
+			(at 133.35 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +4929,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 203.2 99.0599 0)
+			(at 133.35 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +4938,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 200.66 97.79 0)
+			(at 130.81 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +4947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 97.79 0)
+			(at 130.81 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +4956,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 200.66 97.79 0)
+			(at 130.81 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,6 +5085,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "LM74610QDGKRQ1"
 			(at 95.25 54.61 0)
 			(effects
 				(font
@@ -5592,7 +5459,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNum" ""
+		(property "PartNum" "ACML-0402-050-T"
 			(at 129.54 165.1 0)
 			(effects
 				(font
@@ -5629,73 +5496,6 @@
 			(project "6-axis_Board"
 				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/c5aedba9-9a1d-4800-8e24-bc85709c1146"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 204.47 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c27a01e-f2e3-477e-84f5-a2454f57f882")
-		(property "Reference" "TP1"
-			(at 207.01 105.9179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 207.01 108.4579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 209.55 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 204.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "130b2de9-4a32-45d8-9a42-0fbe477f3c2f")
-		)
-		(instances
-			(project ""
-				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/c5aedba9-9a1d-4800-8e24-bc85709c1146"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6015,6 +5815,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "XAL5050-103MEC"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23e3bd21-bff0-4364-a920-642bb2214b2d")
 		)
@@ -6174,6 +5983,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "ADP3338AKCZ-3.3-RL"
 			(at 54.61 146.05 0)
 			(effects
 				(font
@@ -6895,7 +6713,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 200.66 91.44 0)
+		(at 130.81 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6904,7 +6722,7 @@
 		(fields_autoplaced yes)
 		(uuid "853f6bc2-2ed5-4ee7-9cce-b98e4789b9c5")
 		(property "Reference" "H1"
-			(at 203.2 90.1699 0)
+			(at 133.35 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6731,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 203.2 92.7099 0)
+			(at 133.35 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6740,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 200.66 91.44 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 91.44 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6758,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 200.66 91.44 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,72 +6770,6 @@
 			(project ""
 				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/c5aedba9-9a1d-4800-8e24-bc85709c1146"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 200.66 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88923e82-c088-4ca7-86d6-f31b2ed71e02")
-		(property "Reference" "#PWR047"
-			(at 200.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 200.66 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08b6583d-8f8a-4ea7-b87a-d4de6e3743bc")
-		)
-		(instances
-			(project "Motor_control_Board"
-				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/c5aedba9-9a1d-4800-8e24-bc85709c1146"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7558,72 +7310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 215.9 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8b82d4a-8249-42b0-b23a-1041b8dd70a1")
-		(property "Reference" "#PWR055"
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09d7a19a-8113-4030-ab12-184a0e06108c")
-		)
-		(instances
-			(project "Motor_control_Board"
-				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/c5aedba9-9a1d-4800-8e24-bc85709c1146"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 109.22 0)
 		(unit 1)
@@ -7933,6 +7619,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNum" "MAX17643ATC+"
 			(at 50.8 91.44 0)
 			(effects
 				(font
@@ -8395,6 +8090,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNum" "PXN012-60QLJ"
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "1e2282bc-9912-48b5-9c99-d186a6180d52")
 		)
@@ -8799,7 +8503,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 219.71 91.44 0)
+		(at 149.86 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8808,7 +8512,7 @@
 		(fields_autoplaced yes)
 		(uuid "d885e812-8101-4120-a4a6-4df67156ef1b")
 		(property "Reference" "H2"
-			(at 222.25 90.1699 0)
+			(at 152.4 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8521,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 222.25 92.7099 0)
+			(at 152.4 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +8530,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 219.71 91.44 0)
+			(at 149.86 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 91.44 0)
+			(at 149.86 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8548,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 219.71 91.44 0)
+			(at 149.86 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,73 +8922,6 @@
 			(project "6-axis_Board"
 				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/c5aedba9-9a1d-4800-8e24-bc85709c1146"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 218.44 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f44561cc-7e9d-4221-8e0b-31543e18bf02")
-		(property "Reference" "TP2"
-			(at 220.98 105.9179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3v"
-			(at 220.98 108.4579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 218.44 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e830aa28-bf9c-4440-b6e4-6d57dd73cc38")
-		)
-		(instances
-			(project "Motor_control_Board"
-				(path "/8f7cca2f-0bd1-45cd-9991-4ff133d0b08c/c5aedba9-9a1d-4800-8e24-bc85709c1146"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
