@@ -2616,6 +2616,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 100.33 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71fd7c63-1084-419c-a8f6-c368b35b167c")
 		)
@@ -2711,6 +2720,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bbdd1ecd-a995-47b4-a760-1f90c2bfe493")
 		)
@@ -2797,7 +2815,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartNum" "GCM1555C1H240FA16J"
+		(property "PartNum" "C0402C104K4PAC"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 33.02 57.15 0)
 			(effects
 				(font
@@ -2901,6 +2928,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "834a017d-5693-46d2-bd68-e1dac507e881")
 		)
@@ -2987,6 +3023,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 110.49 78.74 0)
 			(effects
 				(font
@@ -3421,6 +3466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "26"
 			(uuid "bce987b6-36fe-4924-828a-83bf691f9d36")
 		)
@@ -3665,6 +3719,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb5228d0-7064-4a33-859b-a7f829964ec7")
 		)
@@ -3825,6 +3888,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f8aa050-a0d8-44b9-ae7f-7bf51fcf15d6")
 		)
@@ -3914,6 +3986,15 @@
 			)
 		)
 		(property "Purchase-URL" ""
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 58.42 30.48 0)
 			(effects
 				(font

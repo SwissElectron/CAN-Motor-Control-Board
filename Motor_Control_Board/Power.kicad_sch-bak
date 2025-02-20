@@ -4839,7 +4839,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "049ff349-3c93-4c76-a5d4-b84fdc992e62")
 		(property "Reference" "J3"
 			(at 19.304 34.544 0)
@@ -9005,7 +9005,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNum" "C0402C104K4PAC"
+		(property "PartNum" "GCM1555C1H240FA16J"
 			(at 123.19 172.72 0)
 			(effects
 				(font
@@ -9351,7 +9351,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNum" "C0402C104K4PAC"
+		(property "PartNum" "GCM1555C1H240FA16J"
 			(at 148.59 172.72 0)
 			(effects
 				(font

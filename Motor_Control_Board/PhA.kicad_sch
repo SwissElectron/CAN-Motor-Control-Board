@@ -2898,6 +2898,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56e6fe68-dac2-48c3-b43f-9fc69e58c568")
 		)
@@ -2998,6 +3007,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "5cb554da-c094-4c18-9458-939ee48e0357")
 		)
@@ -3075,6 +3093,15 @@
 			)
 		)
 		(property "PartNum" "INA180B3QDBVRQ1"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -3169,7 +3196,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartNum" "GCM1555C1H240FA16J"
+		(property "PartNum" "C0402C104K4PAC"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -3246,6 +3282,15 @@
 			)
 		)
 		(property "PartNum" "INA180B3QDBVRQ1"
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 101.6 162.56 0)
 			(effects
 				(font
@@ -3421,6 +3466,15 @@
 			)
 		)
 		(property "PartNum" "CSD18540Q5B"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 73.66 25.4 0)
 			(effects
 				(font
@@ -3664,6 +3718,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bed01c32-66cf-4fc2-be7d-20331db70d40")
 		)
@@ -3750,6 +3813,15 @@
 			)
 		)
 		(property "PartNum" "HP02WAJ0202TCE"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 143.51 110.49 0)
 			(effects
 				(font
@@ -3912,6 +3984,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68563811-74f4-45e7-b559-e779f3d4a590")
 		)
@@ -4000,6 +4081,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5b9b625-253a-4139-aa8c-21435e738c3c")
 		)
@@ -4074,7 +4164,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartNum" "GCM1555C1H240FA16J"
+		(property "PartNum" "C0402C104K4PAC"
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 106.68 153.67 0)
 			(effects
 				(font
@@ -4181,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Value" "12k7"
+		(property "Value" "30k"
 			(at 138.176 45.72 90)
 			(effects
 				(font
@@ -4235,6 +4334,15 @@
 			)
 		)
 		(property "PartNum" "CQ02WGF1272TCE"
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 140.97 45.72 0)
 			(effects
 				(font
@@ -4343,6 +4451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "00689871-7021-468b-bde7-fdf11c63af05")
 		)
@@ -4432,6 +4549,15 @@
 			)
 		)
 		(property "PartNum" "L4CL2512LR002FYR"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 76.2 50.8 0)
 			(effects
 				(font
@@ -4659,6 +4785,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 170.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7f78f9f-a857-410a-baec-a6e42b67b0c0")
 		)
@@ -4750,6 +4885,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 114.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee186595-c9c3-4a46-a9dd-b0b8ad47a980")
 		)
@@ -4830,6 +4974,15 @@
 			)
 		)
 		(property "PartNum" "885012005018"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 146.05 54.61 0)
 			(effects
 				(font
@@ -4938,6 +5091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "22f152fa-3128-466f-908f-87df21424142")
 		)
@@ -5035,6 +5197,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e1f5144-5012-4805-aba3-1830ea660ab0")
 		)
@@ -5112,7 +5283,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartNum" "GCM1555C1H240FA16J"
+		(property "PartNum" "C0402C104K4PAC"
+			(at 106.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 106.68 41.91 0)
 			(effects
 				(font
@@ -5219,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Value" "12k7"
+		(property "Value" "30k"
 			(at 139.446 157.48 90)
 			(effects
 				(font
@@ -5273,6 +5453,15 @@
 			)
 		)
 		(property "PartNum" "CQ02WGF1272TCE"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 142.24 157.48 0)
 			(effects
 				(font
@@ -5369,6 +5558,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "799e9fce-59bb-408c-9589-3fbf6ca405dc")
 		)
@@ -5449,6 +5647,15 @@
 			)
 		)
 		(property "PartNum" "L4CL2512LR002FYR"
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 76.2 162.56 0)
 			(effects
 				(font
@@ -5543,6 +5750,15 @@
 			)
 		)
 		(property "PartNum" "HP02WAJ0202TCE"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -5847,7 +6063,7 @@
 				)
 			)
 		)
-		(property "Value" "12k7"
+		(property "Value" "30k"
 			(at 140.716 101.6 90)
 			(effects
 				(font
@@ -5901,6 +6117,15 @@
 			)
 		)
 		(property "PartNum" "CQ02WGF1272TCE"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 143.51 101.6 0)
 			(effects
 				(font
@@ -6260,6 +6485,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" ""
+			(at 166.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af949ec0-95b0-43f4-862e-1f568eca598b")
 		)
@@ -6343,6 +6577,15 @@
 			)
 		)
 		(property "PartNum" "0402WGF1001TCE"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 114.3 162.56 0)
 			(effects
 				(font
@@ -6505,6 +6748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1f87e98-a4f1-430c-9942-e994d1066c7a")
 		)
@@ -6597,6 +6849,15 @@
 			)
 		)
 		(property "PartNum" "CSD18540Q5B"
+			(at 73.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 73.66 38.1 0)
 			(effects
 				(font
@@ -6966,6 +7227,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c050d52-ca9a-40e2-b44a-c517109e5121")
 		)
@@ -7127,6 +7397,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de4b19b9-a98e-4ebd-9284-7fdda515893d")
 		)
@@ -7221,6 +7500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48fac7b0-1e07-4b10-a15d-0bbc83a36b50")
 		)
@@ -7301,6 +7589,15 @@
 			)
 		)
 		(property "PartNum" "885012005018"
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 147.32 166.37 0)
 			(effects
 				(font
@@ -7475,6 +7772,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 73.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "672c9574-71c0-4ebf-916a-4eb3b386ecac")
 		)
@@ -7578,6 +7884,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c817f723-4636-4d19-91a9-5fe4fbd6dcd3")
 		)
@@ -7646,6 +7961,15 @@
 			)
 		)
 		(property "PartNum" "INA180B3QDBVRQ1"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 101.6 105.41 0)
 			(effects
 				(font
@@ -7758,6 +8082,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73012274-7b7a-4c69-be80-7be51764cb2c")
 		)
@@ -7852,6 +8185,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76c10148-4078-483c-b830-7ccdf12f28af")
 		)
@@ -7938,6 +8280,15 @@
 			)
 		)
 		(property "PartNum" "PCAN0603E10R0BST3"
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
 			(at 62.23 149.86 0)
 			(effects
 				(font

@@ -63,16 +63,6 @@
         "clearance|163925600|56802398|5fee1f0c-0c32-4503-90e2-ddb09d76ebe3|7d0d3d63-977d-48f1-896b-5468003c9530",
         "clearance|163925600|57452400|39ad2eea-7da7-4b36-b67d-82649dcd9ba4|7d0d3d63-977d-48f1-896b-5468003c9530",
         "clearance|163925600|58102398|7de42059-c924-4bd3-914f-3e115921c6ae|7d0d3d63-977d-48f1-896b-5468003c9530",
-        "clearance|164113318|59507000|6d0fe675-b6b0-4b13-a23d-5202c61a4fe7|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|164113318|60006999|45ad707d-d7a8-4277-b5b4-e2f6c1a98644|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|164113318|60507000|676b101e-f032-447a-8959-5351fe0f0a29|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|164113318|61007000|084e53cb-9217-43b6-954d-3246621f46bb|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|164113318|61507001|58035bce-7ba5-4062-a370-2804937dbfbf|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|164113318|61753000|235657fc-11e7-405c-a8d2-04e76da52142|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|166297718|59752999|124e1d2c-b805-45b3-84c7-3e09e3858d3d|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|166297718|60253000|5f276011-1a46-4609-8d4c-3efcf11cec5b|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|166297718|60753000|5edf2f02-8724-4cc8-af66-2f7e4161dfd8|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
-        "clearance|166297718|61925400|4c0d83a4-b193-4b79-8bb0-2a20b2576015|a79a3e90-d0ba-4a22-9f1e-15129a6e215c",
         "malformed_courtyard|166400001|62400000|d24169bf-9a2b-4066-987f-cf70617f1a6f|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|166900000|62900002|d24169bf-9a2b-4066-987f-cf70617f1a6f|00000000-0000-0000-0000-000000000000",
         "solder_mask_bridge|163925600|56152400|7d0d3d63-977d-48f1-896b-5468003c9530|956ff06d-f6f5-4869-a38d-eed0650653b3",
@@ -508,7 +498,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../FabFiles/Motor Control Board/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -519,7 +509,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "../../../FabFiles/Motor Control Board/Motor_control_Board_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -532,7 +522,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -553,33 +543,33 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "PartNum",
-          "name": "PartNum",
-          "show": true
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
+          "label": "Do Not Place",
           "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": false
         },
         {
@@ -682,6 +672,30 @@
           "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "PartNum",
+          "name": "PartNum",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
           "show": false
         }
       ],
